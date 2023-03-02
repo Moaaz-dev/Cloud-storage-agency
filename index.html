@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Frontend Mentor | Fylo landing page with dark theme and features grid
+    </title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm text-light">
+      <div class="container">
+        <img class="logo navbar-brand" src="./images/logo.svg" />
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu"><i class="fa-solid fa-bars text-light"></i></button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link link-light" href="#Features">Features</a></li>
+            <li class="nav-item"><a class="nav-link link-light" href="">Team</a></li>
+            <li class="nav-item"><a class="nav-link link-light" href="#sub">Sign In</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="intro text-light pt-5 pb-5 text-center">
+      <div class="container">
+        <img src="./images/illustration-intro.png" class="mw-100 pb-5 mh-100 w-auto h-auto">
+        <div class="details">
+          <h2 class="pb-2 pt-3">All your files in one secure location, 
+              accessible anywhere.</h2>
+          <p class="">Fylo stores all your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with 
+            friends family, and co-workers.</p>
+        </div>
+        <button class="btn bluebtn mt-3 btn-info fw-bold text-light rounded-pill">Get Started</button>
+      </div>
+    </section>
+    <section class="features pt-5 pb-5" id="Features">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <img class="pb-3" src="images/icon-access-anywhere.svg">
+            <h4 class="text-light">Access your files, anywhere</h4>
+            <p>
+              The ability to use a smartphone, tablet, or
+             computer to access your account means your files follow you everywhere.</p>
+          </div>
+          <div class="col text-center col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <img class="pb-3" src="images/icon-collaboration.svg">
+            <h4 class="text-light">Real-time collaboration</h4>
+            <p>Securely share files and folders
+              with friends, family and colleagues for live collaboration. No email
+              attachments required.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <img class="pb-3" src="images/icon-security.svg">
+            <h4 class="text-light">Security you can trust</h4>
+            <p>2-factor authentication and user-controlled
+              encryption are just a couple of the security features we allow to help
+              secure your files.</p>
+          </div>
+          <div class="col text-center col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <img class="pb-3" src="images/icon-any-file.svg">
+            <h4 class="text-light">Store any type of file</h4>
+            <p>Whether you're sharing holidays
+              photos or work documents, Fylo has you covered allowing for all file types
+              to be securely stored and shared.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="production pt-5">
+      <div class="container">
+        <div class="row">
+          <img class="col col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" src="images/illustration-stay-productive.png"></img>
+          <div class="col col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="text-light mb-3">Stay productive, wherever you are</h2>
+            <p class="mb-3"> Never let location be an issue when accessing your files. Fylo has you covered for
+              all of your file storage needs.</p>
+            <p class="mb-2">Securely share files and folders with
+              friends, family and colleagues for live collaboration. No email attachments
+              required.</p>
+            <a href="" class="text-light mb-3">See how Fylo works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer pt-5 pb-5">
+      <div class="container">
+        <img src="images/bg-quotes.png">
+        <div class="row rev justify-content-center">
+          <div class="op pt-4 px-3 pb-2 ms-2 me-2 mt-2 col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+            <p>Fylo has improved our team productivity by an
+              order of magnitude. Since making the switch our team has become a well-oiled
+              collaboration machine.</p>
+            <div class="profile align-items-center d-flex">
+              <img class="d-inline-block " src="images/profile-1.jpg">
+              <div class="d-inline-block ps-2">
+                <span class="text-light">Satish Patel</span>
+                <h6>Founder & CEO, Huddle</h6>
+              </div>
+            </div>
+          </div>
+          <div class="op pt-4 px-3 pb-2 ms-2 me-2 mt-2 col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+            <p>Fylo has improved
+              our team productivity by an order of magnitude. Since making the switch our
+              team has become a well-oiled collaboration machine.</p>
+            <div class="profile align-items-center d-flex">
+              <img class="d-inline-block " src="images/profile-2.jpg">
+              <div class="d-inline-block ps-2">
+                <span class="text-light">Bruce McKenzie</span>
+                <h6>Founder & CEO, Huddle</h6>
+              </div>
+            </div>
+          </div>
+          <div class="op pt-4 px-3 pb-2 ms-2 me-2 mt-2 col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+            <p>Fylo has improved our team productivity by an order of
+              magnitude. Since making the switch our team has become a well-oiled
+              collaboration machine.</p>
+            <div class="profile align-items-center d-flex">
+              <img class="d-inline-block  " src="images/profile-3.jpg">
+              <div class="d-inline-block ps-2">
+                <span class="text-light">Iva Boyd</span>
+                <h6>Founder & CEO, Huddle</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="container pb-5">
+
+      <div class="sub pb-2 px-2 m-auto">
+        <h2 class="text-light text-center text-lg-start pt-4 pb-3">Get early access today</h2>
+        <p class="text-center m-auto fs-6 d-flex justify-content-center pb-4 w-75">It only takes a minute to sign up and our free starter tier is extremely
+          generous. If you have any questions, our support team would be happy to help
+          you.</p>
+        <form class=" d-md-flex d-sm-block m-auto row justify-content-md-evenly" action="">
+          <input class="rounded-pill d-sm-flex mb-4 m-auto form-control ps-3 justify-content-center" required id="validationCustom03" type="text" placeholder="email@example.com">
+          <button type="submit" class="btn bluebtn  mb-4 d-flex justify-content-center m-auto mb-2 btn-info fw-bold text-light rounded-pill">Get Started For Free</button>
+        </form>
+      </div>
+      <img class="logo navbar-brand" src="./images/logo.svg" />
+      <div class="last text-center d-block d-lg-flex justify-content-between">
+
+        <div class="logo-sec">
+          <div class="map text-light m-auto pb-5 pt-4 d-lg-inline-block d-block">
+            <img src="images/icon-location.svg" class="pe-3">
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+          </div>
+        </div>
+        <div class="contact-sec pb-5 d-lg-inline-block d-block">
+          <div class="first d-block pb-2 text-light d-lg-inline-block d-block">
+            <img class="pe-3" src="images/icon-phone.svg">
+            <span>01223822690</span>
+          </div>
+          <div class="sec d-block text-light">
+            <img class="pe-3" src="images/icon-email.svg">
+            <span>moaazhussein@outlock.com</span>
+          </div>
+        </div>
+        <div class="links-sec1 pb-3 d-block list-unstyled ">
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">About Us</a></li>
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">Jobs</a></li>
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">Press</a></li>
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">Blog</a></li>
+        </div>
+        <div class="links-sec2 pb-4 d-block list-unstyled ">
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">Contact Us</a></li>
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">Terms</a></li>
+          <li class="pb-2"><a class="text-light text-decoration-none " href="">Privacy</a></li>
+        </div>
+        <div class="logoes">
+          <i class="fa-brands text-light pe-3 fs-4 fa-facebook"></i>
+          <i class="fa-brands text-light pe-3 fs-4 fa-square-twitter"></i>
+          <i class="fa-brands text-light pe-3 fs-4 fa-square-instagram"></i>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+        >. Coded by <a href="mailto:moaazhussein@outlock.com">Moaaz Hussein</a>.
+      </p>
+    </div>
+
+    </footer>
+    
+    
+            
+    
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
